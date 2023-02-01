@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Scoreboard</title>
+    </head>
+    <body>
+            <div class="container-scores">
+                <div>
+                    <h3 class="board-title-home">HOME</h3>
+                    <div id="score-home-el"  class="background-score">0</div>
+                    <button class="plus-one-point button" onclick="addOne()">+1</button>
+                    <button class="plus-two-point button" onclick="addTwo()">+2</button>
+                    <button class="plus-three-point button" onclick="addThree()">+3</button>
+                    <h2>Fouls</h2>
+                    <div id="fouls-score-home" class="foul-background">0</div>
+                    <button class="btn-foul-guest one" onclick="addFoulsHome()">+1</button>
+                </div>
+
+                <div class="container-timer">
+                    <div id="timer-el" class="timer">30:00</div>
+                    <div id="whosWinningTheGame" class="whosWinning"></div>
+                    <button id="reset-btn" class="btn-newGame" onclick="reset()">NEW GAME</button>
+                </div>
+
+                <!-- ⮕ -->
+
+                <div>
+                    <h3 class="board-title-home">GUEST</h3>
+                    <div id="score-guest-el" class="background-score">0</div>
+                    <button class="plus-one-point button" onclick="addOneGuest()">+1</button>
+                    <button class="plus-two-point button" onclick="addTwoGuest()">+2</button>
+                    <button class="plus-three-point button" onclick="addThreeGuest()">+3</button>
+                    <h2>Fouls</h2>
+                    <div id="fouls-score-guest"  class="foul-background">0</div>
+                    <button class="btn-foul-guest two" onclick="addFoulGuest()">+1</button>
+                </div>
+            </div>
+        <script src="./counter.js"></script>
+    </body>
+</html>

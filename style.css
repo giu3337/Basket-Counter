@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "cursed-timer";
+    src: url("./font/CursedTimerUlil-Aznm.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("./img/Screenshot\ 2023-01-31\ at\ 19.18.46.png");
+    background-size: cover;
+}
+
+
+
+h3{
+    text-decoration: overline;
+}
+
+h3:hover{
+    text-decoration: overline greenyellow;
+}
+
+.container-scores{
+    display: flex;
+    justify-content: space-around;
+    /* background: #1B244A; */
+    /* background-image: url(https://mobimg.b-cdn.net/v3/fetch/c9/c96d7d947894bcd14c2fbc4c347c122e.jpeg?h=900&r=0.5); */
+    /* background-image: url(https://mobimg.b-cdn.net/v3/fetch/64/64a09b8900471ee6a8a7aa6f47a86742.jpeg?h=900&r=0.5); */
+    background-size: cover;
+    height: 600px;
+    width: 700px;
+    margin:  30px auto 0;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.container-scores:hover{
+    border: 2px solid yellowgreen;
+}
+
+.board-title-home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color:  #EEEEEE;
+    width: 150px;
+    height: 40px;
+    left: 340px;
+    top: 68px;
+}
+
+.background-score{
+    height: 120px;
+    width: 155px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;
+    background: #080001;
+    font-family:cursed-timer ;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0 0 26px 0px;
+    border: 4px solid white;
+    border-radius: 15px;
+}
+
+.background-score:hover{
+    border: 4px solid greenyellow;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family:cursed-timer;
+    background-color: transparent;
+    color: white;
+    margin: 0px 2px 10px 2px;
+    
+}
+
+.button:hover{
+    border: 2px solid greenyellow;
+}
+
+/* Foul Timer */
+
+.foul-background{
+    height: 50px;
+    width: 70px;
+    left: 82px;
+    top: 125px;
+    border-radius: 10px;
+    background: #080001;
+    font-family:cursed-timer ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+    margin: 25px auto 26px auto;
+    border: 4px solid white;
+}
+
+.foul-background:hover{
+    border: 4px solid greenyellow;
+}
+
+/*  Foul Timer */
+
+              /* Container Timer */
+
+/* Timer */
+
+.timer{
+    background: #080001;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family:cursed-timer ;
+    color: #F94F6D;
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 30px;
+    border: 3px solid white;
+}
+
+.timer:hover{
+    border: 3px solid greenyellow;
+}
+
+/* Timer */
+
+.whosWinning{
+    background: transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 100px 0 0 15px;
+    color: greenyellow;
+    text-align: center;
+    line-height: 97px;
+    border: 5px solid white;
+    font-size: 40px;
+}
+
+.whosWinning:hover{
+    border: 5px solid greenyellow;
+}
+
+
+
+.btn-newGame{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 170px;
+    border: 5px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.btn-newGame:hover{
+    border: 5px solid greenyellow;
+}
+
+h2{
+    font-family: verdana;
+    text-align: center;
+    color: white;
+    text-decoration: overline red;
+}
+
+h2:hover{
+    text-decoration: underline red;
+}
+
+.btn-foul-guest{
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 4px solid black;
+    border-radius: 5px;
+    font-family:cursed-timer;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-foul-guest:hover{
+    border: 4px solid greenyellow;
+    color: #F94F6D;
+}
+
+.one{
+    margin-left: 55px;
+}
+
+.two{
+    margin-left: 55px;
+}
